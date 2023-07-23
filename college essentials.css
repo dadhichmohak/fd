@@ -1,17 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    
-}
-
-body{
-    background-color: #fafaff;
-    max-width: 1920px;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-
 /* header */
 .header {
     background-color: #30343F;
@@ -62,78 +48,51 @@ body{
     border-bottom: 2px solid #FAFAFF;
 }
 
-
-
-/* title heading */
-
-section{
-    text-align: center;
-    margin-bottom: 2%;
-}
-.heading-home{
-    color: #30343F;
-    font-size: 2rem;
+/* main heading 1 */
+#college-ess{
+    margin-top: 5%;
 }
 
-.fd{
+.college-ess-heading{
     color: #273469;
-    font-size: 3.5rem;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-}
-
-/* buttons */
-.button-container{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    min-height: 10vh;
-    margin-bottom: 2%;
-    color: #FAFAFF;
-
-}
-
-.button-container a{
-    text-decoration: none;
-    color: #FAFAFF;
-}
-
-button{
     text-align: center;
-    background-color: #3a0ca3;
-    color: #FAFAFF;
-    padding: 1%;
-    align-items: center
-    
-
-}
-
-.but-1{
-    font-size: 1.2rem;
-    height: 7.5vh;
-    margin-right: 5%;
-}
-
-.but-2{
-    font-size: 1.2rem;
-    height: 7.5vh;
-}
-
-button:hover{
-    background-color: #2a9d8f;
-    border: 2px solid black;
-    
+    font-size: 2.75rem;
+    font-weight: 500;
 }
 
 
-/* tagline */
-.tagline{
-    text-align: center;
-    align-items: center;
-    font-size: larger;
-    margin-bottom: 2%;
+
+/* list */
+.list{
+    color: #30343F;
+    text-align: left;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-top: 6vh;
+    line-height: 1.5;
 }
+
+.list h1,h2,h3,h4,h5,h6{
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -146,8 +105,7 @@ footer{
     left: 0;
     width: 100%;
     color: #fafaff;
-    margin-top: 5vh
-    
+    margin-top: 5vh;
 }
 
 
