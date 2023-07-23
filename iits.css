@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #fafaff;
+    max-width: 1920px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* header */
+.header {
+    background-color: #30343F;
+    color: #FAFAFF;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    display: flex;
+    align-items: center;
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    
+    margin-left: 0;
+    min-height: 5vh;
+    margin-bottom: 2%;
+}
+
+.logo {
+    margin-right: 1.04%;
+    padding-left: 2%;
+    
+}
+
+.menu {
+    /* display:flex; */
+    flex: 1;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.menu a {
+    color: #fafaff;
+    text-decoration: none;
+    margin: 0 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 2px solid transparent;   
+    padding-bottom: 0.5%;   
+}
+
+.menu a:hover {
+    border-bottom: 2px solid aquamarine ;
+}
+
+#current-page{
+    color: aquamarine;
+    border-bottom: 2px solid #FAFAFF;
+}
+
+
+
+/* title heading */
+
+.heading{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.heading{
+    color: #273469;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.content{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    text-align: left;
+    color: #30343F;
+}
+
+
+/* list */
+.list{
+    color: #30343F;
+    text-align: left;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-top: 6vh;
+    line-height: 1.5;
+}
+.list a{
+    text-decoration: none;
+    color: #30343F;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.list a:hover{
+    color: aquamarine;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color: #30343f;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fafaff;
+    margin-top: 5vh
+    
+}
+
+
+.container{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2%;
+    font-family: 'Roboto', serif;
+}
+
+.column-container{
+    display: flex;
+    padding-left: 1%;
+    align-items:flex-start;
+    align-content: center;
+}
+
+.column {
+    flex: 1;
+    padding: 2%;
+    border-left: 1px solid #fafaff;}
+
+    .column:first-child{
+        border-left: none;
+    }
+
+
+
+.column a{
+    text-decoration: none;
+    color: #fafaff;
+}
+
+.column a:hover{
+    color: aquamarine;
+}
+
+.heading-footer{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 1%;
+}
+.normal-text{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto';
+}
