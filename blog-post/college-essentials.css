@@ -5,6 +5,63 @@
 
 }
 
+/* header */
+.header{
+    background: #262626;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    top: 0;
+    left: 0;
+
+    min-height: 5vh;
+    margin-bottom: 2%;
+}
+
+.logo{
+    margin-left: 1vw;
+}
+
+.logo img{
+    
+    height: 70px;
+}
+
+.menu {
+    /* display:flex; */
+    flex: 1;
+    text-align: right;
+    margin-right: 5%;
+}
+
+
+.menu a {
+    color: #fafaff;
+    text-decoration: none;
+    margin: 0 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 2px solid transparent;   
+    padding-bottom: 0.5%;   
+    cursor: pointer;
+ 
+}
+
+.menu a:hover {
+    border-bottom: 2px solid aquamarine ;
+}
+
+#current-page{
+    color: aquamarine;
+    border-bottom: 2px solid #FAFAFF;
+}
+
+
+
+
+
+
+
 .sec-1{
     text-align: left;
     font-family: 'Open Sans', sans-serif;
@@ -24,12 +81,12 @@
     margin: 0 2vw;
     padding: 0.5vh 4vw;
     margin-bottom: 2vh;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 2;
 }
 
 .most-imp div{
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     color: red;
 }
@@ -43,22 +100,25 @@
 }
 
 .list ol li{
-    font-size: large;
-    color: #273469;
+    font-size: 18px;
+    color: #032B43;
+    font-weight: 800;
 }
 
 .list ol ul{
     padding-left: 3vw;
 }
 .list ol ul li{
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 400;
     color: #30343f;
+    line-height: 2;
 }
 
 .list ol p{
     font-family: 'Open Sans';
     font-size: 14px;
-    color: red;
+    color: #30292F;
     margin: 2vh 0;
 }
 
