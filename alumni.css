@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+.header {
+    background: #264653;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 3vh;
+    margin-bottom: 2%;
+}
+
+.logo {
+    padding-top: 1vh;
+    margin-left: 1vw;
+}
+
+.logo img {
+
+    height: 90px;
+}
+
+.menu {
+    /* display:flex; */
+    flex: 1;
+    text-align: right;
+    margin-right: 5%;
+}
+
+
+.menu a {
+    color: #fafaff;
+    text-decoration: none;
+    margin: 0 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 2px solid transparent;
+    padding-bottom: 0.5%;
+
+}
+
+.menu a:hover {
+    border-bottom: 2px solid aquamarine;
+}
+
+#current-page {
+    color: aquamarine;
+    border-bottom: 2px solid #fafaff;
+}
+
+section{
+    margin: 0 5vw;
+}
+
+.home{
+    text-align: center;
+}
+.home h1{
+    color: #17194C;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#ac{
+    color: #FDCC06;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    animation: introFadeIn 2s ease-in-out;
+}
+@keyframes introFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.but1{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.but1 button{
+    height: 7vh;
+    width: 10vw;
+    color: #fafaff;
+    background-color: #2a9d8f;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+.but1 button:hover{
+    background-color: #e9c46a;
+    color: #333;
+    cursor:pointer;
+}
+
+
+#Mivision h1{
+    font-size: 40px;
+    color: #264653;
+
+}
+
+
+
+
+
+
+
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+}
+.member{
+    text-align: center;
+}
+.member img{
+    width : 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid aquamarine;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#head img{
+    border: 3px solid crimson;
+}
+
+.member h3{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+.member p{
+    margin: 0;
+    font-size: 1rem;
+    color: #777;
+}
+
+.contact{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.contact h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+.contact label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+.contact button{
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact button:hover{
+    background-color: green;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #264653;
+    color: #fafaff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.footer-logo img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-links a {
+    color: #fafaff;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer-links a:hover {
+    border-bottom: 2px solid aquamarine;
+}
+
+.footer-social a {
+    color: #fafaff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: all ease 0.2s;
+}
+
+.footer-social a:hover{
+    color: aquamarine;
+}
+
+.footer-info {
+    margin: 2vh 0;
+    font-size: 14px;
+}
